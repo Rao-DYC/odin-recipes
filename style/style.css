@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Hero CSS start */
+header {
+    color: white;
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-links {
+    font-size: 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Hero CSS end */
+
+/* 1st Section CSS start */
+.part-one{
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    background-color: #1F2937;
+    padding-bottom: 26px;
+}
+
+.subtitle{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text-part-one{
+    padding-top: 4px;
+    font-size: 13px;
+}
+
+.button-one{
+    border: none;
+    padding: 0;
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.part-one-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.part-one-right{
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+}
+
+.img-one{
+    width: 100%;
+    border-radius: 8px;
+}
+/* 1st Section CSS end */
+
+/* 2nd Section CSS start */
+.subtitle-two{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.part-two{
+    padding: 30px 30px 90px 30px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.photos-containers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.photo-box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.photo-box p{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    margin-top:5px;
+}
+
+.photo-box{
+    flex-shrink: 0;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 180px;
+    width: 180px;
+    margin-bottom: 45px;
+}
+/* 2nd Section CSS end */
+
+/* 3rd Section CSS start */
+.part-three{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 120px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author{
+    align-self: end;
+    font-weight: bold;
+}
+/* 3rd Section CSS end */
+
+/* 4th Section CSS start */
+.part-four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 120px 40px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    gap: 20px;
+}
+
+.text-four{
+    font-weight: lighter;
+}
+
+.p-four{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.button-four{
+    border: solid 3px white;
+    color: white;
+    padding: 6px 26px;
+    border-radius: 8px;
+    background-color: #3882F6;
+}
+/* 4th Section CSS end */
+
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 14px;
+}
